@@ -1,0 +1,5 @@
+[A,B] = input().rstrip().split(' ')
+[p,q] = B.split(".")
+a = int(A)
+b = int(p)*100+int(q)
+print(a*b//100)
